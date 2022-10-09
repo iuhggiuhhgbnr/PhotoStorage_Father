@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(219, 212, 212);
+}
+
+.nav_Container {
+  right: 10px;
+  position: absolute;
+  padding : 25px
+}
+
+.nav_bar {
+  text-decoration: none;
+  background-color: rgb(243, 241, 239);
+  padding: 1rem;
+  margin-left : 0.3rem;
+  margin-right : 0.3rem;
+  transition-duration: 1s;
+  color: #000;
+}
+.nav_bar:hover {
+  background-color: rgb(6, 255, 243);
+  color: rgb(0, 26, 255);
+}
+
+.textHead {
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

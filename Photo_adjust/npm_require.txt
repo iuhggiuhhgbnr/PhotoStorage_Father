@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=HO5iiDaZO2E
+
+https://www.youtube.com/watch?v=GXe_JpBQLTQ
+
+For Postgresql
+npm install pg --save
+npm install express --save
+npm install body-parser --save
+npm install ejs --save
+npm install pg express body-parser ejs --save
+
+Run server
+node api.js
+
+Postgresql DB setup
+creat user call : test (depend and dont forget to set password)
+install port: 3000
+
+Data base name : comStorage
+Creat table name : users
+id - interger (primary key, none null)
+namecom - text
+descom - text
+descom2 - text
+descom3 - text
+descom4 - text
+descom5 - text
+timeadd - text
+imagedata - text
