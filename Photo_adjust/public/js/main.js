@@ -25,15 +25,19 @@ async function getNumber(){
         const incidentTableData = incident.map(user => {         
             return `<div class="dataContainer" id="dataContainer">
 
+                    <img src = "uploadImage\\${user.imagedata}" alt="Fail"  class = "imageData"/>
+
+                    <div class="textContainer" id="textContainer">
                     <p>หมายเลขรูปภาพ : ${user.id}</p>
                     <p>ชื่อรูปภาพ : ${user.namecom}</p>
                     <p>คำอธิบาย 1 : ${user.descom}</p>
-                    <p>คำอธิบาย 2 : ${user.descom}</p>
-                    <p>คำอธิบาย 3 : ${user.descom}</p>
-                    <p>คำอธิบาย 4 : ${user.descom}</p>
-                    <p>คำอธิบาย 5 : ${user.descom}</p>
+                    <p>คำอธิบาย 2 : ${user.descom2}</p>
+                    <p>คำอธิบาย 3 : ${user.descom3}</p>
+                    <p>คำอธิบาย 4 : ${user.descom4}</p>
+                    <p>คำอธิบาย 5 : ${user.descom5}</p>
                     <p>Time Add : ${user.timeadd}</p>
-                    <img src = "uploadImage\\${user.imagedata}" alt="Fail" />
+                    </div>
+                    
                     </div>
                     `;                   
         }).join("");
