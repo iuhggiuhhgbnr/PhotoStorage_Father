@@ -31,11 +31,28 @@ body{
 .dataContainer {
     background-color: #cdcdcd;
     padding : 1rem;
-    margin-bottom : 1rem; 
+    margin-bottom : 0.3rem; 
     transition-duration: 1s;
 }
 
 .dataContainer:hover{
     background-color: #ffffff;
      
+}
+
+.textContainer{
+    text-align: left;
+    margin-left: 200px;
+    line-height: 0.4;
+    font-size: 12px;
+}
+
+.imageData{
+    max-width: 9%;
+    height: auto;
+    float: left;
+    clear: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 2px;
 }
